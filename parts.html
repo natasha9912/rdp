@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>MotorParts • Parts</title>
+    <link rel="icon" type="image/svg+xml" href="/assets/img/favicon.svg" />
+    <link rel="stylesheet" href="/assets/css/styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="/index.html">MotorParts</a>
+        <nav class="nav">
+          <a href="/index.html">Home</a>
+          <a href="/parts.html" aria-current="page">Parts</a>
+          <a href="/contact.html">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="section container">
+        <h1>Parts Catalog</h1>
+        <p class="muted">Browse our popular parts. More categories coming soon.</p>
+        <div class="divider"></div>
+        <div class="grid-4">
+          <article class="card">
+            <div class="art">Piston Kit</div>
+            <h3>Performance Piston Kit</h3>
+            <p class="muted">Forged aluminum, coated skirts.</p>
+            <div class="row" style="margin-top:12px">
+              <span class="badge mono">$129.00</span>
+              <a class="button sm" href="#">Details</a>
+            </div>
+          </article>
+          <article class="card">
+            <div class="art">Timing Chain</div>
+            <h3>Timing Chain Set</h3>
+            <p class="muted">Hardened steel, OE-spec tensioner.</p>
+            <div class="row" style="margin-top:12px">
+              <span class="badge mono">$149.00</span>
+              <a class="button sm" href="#">Details</a>
+            </div>
+          </article>
+          <article class="card">
+            <div class="art">Oil Filter</div>
+            <h3>High-Flow Oil Filter</h3>
+            <p class="muted">Synthetic media, extended life.</p>
+            <div class="row" style="margin-top:12px">
+              <span class="badge mono">$12.00</span>
+              <a class="button sm" href="#">Details</a>
+            </div>
+          </article>
+          <article class="card">
+            <div class="art">Spark Plug</div>
+            <h3>Iridium Spark Plugs (4)</h3>
+            <p class="muted">Long-life, strong ignition.</p>
+            <div class="row" style="margin-top:12px">
+              <span class="badge mono">$36.00</span>
+              <a class="button sm" href="#">Details</a>
+            </div>
+          </article>
+          <article class="card">
+            <div class="art">Clutch</div>
+            <h3>Heavy-Duty Clutch Kit</h3>
+            <p class="muted">Heat resistant friction plates.</p>
+            <div class="row" style="margin-top:12px">
+              <span class="badge mono">$219.00</span>
+              <a class="button sm" href="#">Details</a>
+            </div>
+          </article>
+          <article class="card">
+            <div class="art">Battery</div>
+            <h3>Lightweight AGM Battery</h3>
+            <p class="muted">Reliable starts, low weight.</p>
+            <div class="row" style="margin-top:12px">
+              <span class="badge mono">$89.00</span>
+              <a class="button sm" href="#">Details</a>
+            </div>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <p>© <span id="year"></span> MotorParts. All rights reserved.</p>
+      </div>
+    </footer>
+    <script>
+      document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>
