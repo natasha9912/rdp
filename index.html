@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>MotorParts • Home</title>
+    <link rel="icon" type="image/svg+xml" href="/assets/img/favicon.svg" />
+    <link rel="stylesheet" href="/assets/css/styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="/index.html">MotorParts</a>
+        <nav class="nav">
+          <a href="/index.html" aria-current="page">Home</a>
+          <a href="/parts.html">Parts</a>
+          <a href="/contact.html">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <!-- Hero -->
+      <section class="section container">
+        <div class="hero">
+          <div>
+            <span class="badge">Quality parts. Fast shipping.</span>
+            <h1>Upgrade and maintain your ride with confidence</h1>
+            <p>OEM-grade and performance motor parts at fair prices. Trusted by enthusiasts and pros.</p>
+            <div class="cta">
+              <a class="button primary" href="/parts.html">Shop Parts</a>
+              <a class="button ghost" href="/contact.html">Contact Us</a>
+            </div>
+          </div>
+          <div class="hero-visual">
+            <div class="hero-art" aria-hidden="true"></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Categories -->
+      <section class="section container">
+        <h2>Shop by category</h2>
+        <div class="grid">
+          <article class="card">
+            <div class="art">Engine</div>
+            <h3>Engine</h3>
+            <p>Gaskets, pistons, filters, timing kits, and more.</p>
+          </article>
+          <article class="card">
+            <div class="art">Transmission</div>
+            <h3>Transmission</h3>
+            <p>Clutches, belts, chains, gear sets, and fluids.</p>
+          </article>
+          <article class="card">
+            <div class="art">Electrical</div>
+            <h3>Electrical</h3>
+            <p>Batteries, alternators, starters, sensors, and wiring.</p>
+          </article>
+        </div>
+      </section>
+
+      <!-- Featured parts -->
+      <section class="section container">
+        <h2>Featured parts</h2>
+        <div class="grid">
+          <article class="card">
+            <div class="art">Piston Kit</div>
+            <h3>Performance Piston Kit</h3>
+            <p class="muted">Forged aluminum, low-friction coating. Fits popular 600–800cc engines.</p>
+            <div class="row" style="margin-top:12px">
+              <span class="badge mono">$129.00</span>
+              <a class="button sm" href="/parts.html">View</a>
+            </div>
+          </article>
+          <article class="card">
+            <div class="art">Clutch</div>
+            <h3>Heavy-Duty Clutch Kit</h3>
+            <p class="muted">Improved heat resistance and bite. Street and track ready.</p>
+            <div class="row" style="margin-top:12px">
+              <span class="badge mono">$219.00</span>
+              <a class="button sm" href="/parts.html">View</a>
+            </div>
+          </article>
+          <article class="card">
+            <div class="art">Battery</div>
+            <h3>Lightweight AGM Battery</h3>
+            <p class="muted">Reliable starts with reduced weight and long service life.</p>
+            <div class="row" style="margin-top:12px">
+              <span class="badge mono">$89.00</span>
+              <a class="button sm" href="/parts.html">View</a>
+            </div>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <p>© <span id="year"></span> MotorParts. All rights reserved.</p>
+      </div>
+    </footer>
+    <script>
+      document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>
